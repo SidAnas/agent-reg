@@ -1,0 +1,195 @@
+/*---Navbar---*/
+i .materials-icon{
+    border-style: double;
+    background-color: #000;    
+}
+.nav-wrapper{
+    background-color: #ffffff;
+}
+li a{
+    color: #000;
+}
+.brand-logo{
+    padding-left: 2%;
+    padding-top: 0.5%;
+}
+
+/*---Section id="jumbo"---*/
+
+.jumbo-title-1{
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+.jumbo-title-2{
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+#jumbo{
+    margin-top: 3rem;
+    
+}
+.jumbo-sub-title{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    color: #757575;
+}
+.sub-container{
+    margin-top: 4rem;
+}
+
+.sub-container-bold{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.sub-container-pad{
+    margin-top: -1%;
+}
+
+/*---form---*/
+/* .btn{
+    width: 100%;
+    background-color: red !important;
+
+} */
+
+.btn-form{
+    width: 100%;
+    background-color: red !important;
+
+}
+
+.teal{
+    background-color: #ffffff !important;
+    color: black;
+    
+
+}
+.form-box-title{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+}    
+.main-form{
+    margin-top: -0.6rem;
+    margin-bottom: -1rem;
+}
+.container{
+    margin-top: 3rem;
+}
+
+
+
+/*---section id="boxes"---*/
+.row-one-card-two{
+    padding-bottom: 3rem;
+}
+.row-one-card-three{
+    padding-bottom: 3.1rem;
+}
+.row-one-card-one{
+    margin-bottom: -0.3rem;
+}
+
+/*---Sectio id="get started"---*/
+
+#started{
+    height: 5rem;
+}
+
+/*---section hiw---*/
+.hiw-col-one{
+    padding-bottom: 4.5rem;
+}
+.hiw-col-three{
+    padding-bottom: 3rem;
+}
+
+
+/*---section id="happy-customer"---*/
+
+.happy-customer-title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 5rem auto auto auto;
+}
+
+.card-content-bold{
+    font-weight: bold;
+    font-size: 1rem;
+} 
+
+.center-align p{
+    font-size: 1.2rem;
+}
+
+.hpycust-card-two{
+    padding-bottom: 2.9rem;
+}
+
+/*filckity*/
+/* * { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+} */
+
+/* cell number */
+/* .carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+} */
+.carousel-cell{
+    width: 100%;
+    margin-top: 4.5rem;
+}
+
+.card{
+    width: 100%;
+}
+
+@media(max-width:1024px){
+    .jumbo-title-1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .jumbo-title-2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .jumbo-sub-title{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .container{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .card-content{
+        margin-bottom: 3rem;
+    }
+    .row-one-card-three{
+        margin-bottom: -2rem;
+    }
+    .hiw-col-one{
+        padding-bottom: -3rem;
+    }
+
+    
+}
+
